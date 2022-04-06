@@ -61,7 +61,7 @@ def render_contact_page():
     return render_template('contact.html', logged_in=is_logged_in())
 
 
-@app.route('/login', methods=["GET", "POST"])
+@app.route('/login', methods=["cafe.dbGET", "POST"])
 def render_login_page():
     if is_logged_in():
         return redirect('/')

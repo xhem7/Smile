@@ -128,7 +128,7 @@ a, a:visited {
 }
 
 .product-box a {
-    border: 1px solid tomato;
+    border: 1px solid #ff6347;
     padding: 0.3rem;
     text-align: right;
 }
